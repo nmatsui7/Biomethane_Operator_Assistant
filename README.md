@@ -20,6 +20,14 @@ Biomethane and anaerobic digestion facilities rely on continuous monitoring of p
 - **SCADA Ingestion** — Auto-detect vendor, fuzzy column mapping, CUSUM filtering
 - **RAG Pipeline** — Retrieval-augmented generation over process documentation
 
+## Example Use Cases
+
+- Check current plant state and KPI summary
+- Detect unusual process behavior using CUSUM anomaly detection
+- Estimate hidden process states using Ensemble Kalman filtering
+- Ask operational questions through a RAG-enabled chat interface
+- Compare feedstock blending options using BMP, C/N, and OLR calculations
+
 ## Quick Start
 
 ```bash
