@@ -1,0 +1,43 @@
+{
+  "db_path": "data/plant_state.sqlite",
+  "retention_hours": 48,
+  "lab_scale": true,
+  "estimated_geometry": {
+    "digester_volume_m3": 1.0,
+    "hrt_days": 17,
+    "feed_kg_vs_day": 1.28,
+    "s1_in_g_per_l": 18.0
+  },
+  "alert_thresholds": {
+    "lab_scale": {
+      "digester_temp_c": {"low": 20, "high": 30},
+      "vfa_mmol_l": {"medium": 30, "high": 80},
+      "nh4_mg_l": {"medium": 300, "high": 800},
+      "h2s_ppm": {"medium": 200, "high": 500},
+      "digester_ph": {"low": 6.8, "high": 7.8},
+      "biomethane_purity_pct": {"min": 95},
+      "o2_ppm": {"max": 500}
+    },
+    "industrial": {
+      "digester_temp_c": {"low": 35, "high": 40},
+      "vfa_mmol_l": {"medium": 8, "high": 15},
+      "nh4_mg_l": {"medium": 300, "high": 800},
+      "h2s_ppm": {"medium": 200, "high": 500},
+      "digester_ph": {"low": 6.8, "high": 7.8},
+      "biomethane_purity_pct": {"min": 95},
+      "o2_ppm": {"max": 500}
+    }
+  },
+  "cusum_params": {
+    "digester_temp_c": {"K": 0.5, "H": 2.0},
+    "biogas_flow_nm3h": {"K": 0.00001, "H": 0.00005},
+    "ch4_pct": {"K": 1.0, "H": 5.0},
+    "digester_ph": {"K": 0.1, "H": 0.5}
+  },
+  "daily_assessment": {
+    "souring_probability_watch":  0.10,
+    "souring_probability_action": 0.30,
+    "s2_rising_days":             2,
+    "run_hour_utc":               6
+  }
+}

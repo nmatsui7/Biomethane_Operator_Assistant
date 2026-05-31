@@ -1,0 +1,46 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment
+.env
+.venv/
+venv/
+env/
+
+# Database files
+*.sqlite
+*.sqlite3
+*.db
+
+# Cache
+.cache/
+.cache/huggingface/
+*.gguf
+
+# Logs
+logs/
+*.log
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Model files (too large for git)
+models/
+*.gguf
+*.safetensors
+
+# Hugging Face cache
+.huggingface/
