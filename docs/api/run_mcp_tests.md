@@ -608,7 +608,7 @@ On completion:
 | **Parallel protection** | None | `fcntl` lockfile |
 | **Logging** | Terminal only | Terminal + timestamped file in `logs/` |
 | **Default model** | `Qwen3-4B-Thinking-2507-MLX-4bit-Q4_K_L` | `gemma-4-E4B-it-Q8_0.gguf` |
-| **Default test file** | `biomethane_mcp_tests.md` (in `src/`) | `docs/biomethane_mcp_tests.md` |
+| **Default test file** | `docs/biomethane_mcp_tests.md` | `docs/biomethane_mcp_tests.md` |
 | **Default server script** | `bio_methane_operations_mcp_server.v5.py` | `src/bio_methane_operations_mcp_server_v5.py` |
 | **Default output** | `../reports/mcp_test_report` | `reports/mcp_test_report` |
 | **Default context length** | `4096` | `8192` |

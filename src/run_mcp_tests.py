@@ -784,7 +784,7 @@ def main():
     parser.add_argument("--test", default="", help="Run a single test by ID, e.g. A03")
     parser.add_argument(
         "--test-file",
-        default="biomethane_mcp_tests.md",
+        default="docs/biomethane_mcp_tests.md",
         help="Path to the test markdown file",
     )
     parser.add_argument(

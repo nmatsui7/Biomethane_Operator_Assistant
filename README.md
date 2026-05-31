@@ -2,6 +2,10 @@
 
 MCP (Model Context Protocol) server and CLI for anaerobic digestion plant operations, featuring a physics-based AD4 simulator, Ensemble Kalman Filter state estimation, SCADA ingestion pipeline, and an LLM-powered chat interface.
 
+## Why This Project Matters
+
+Biomethane and anaerobic digestion facilities rely on continuous monitoring of process variables, feedstock inputs, gas production, and operational alerts. This project explores how AI-assisted tools, process simulation, state estimation, and retrieval-augmented generation can support operators by improving access to technical information and helping structure operational analysis.
+
 ## Features
 
 - **MCP Server** — 25+ tools accessible via stdio or HTTP (`src/bio_methane_operations_mcp_server_v5.py`)
