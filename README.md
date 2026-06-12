@@ -44,6 +44,10 @@ See [SETUP_GUIDE.md](SETUP_GUIDE.md) for full installation and configuration.
 - llama.cpp with MCP support (for local LLM inference)
 - Gemma 4 or any OpenAI-compatible model
 
+## Screenshot
+
+![Chat Interface](screenshots/chatscreen.jpg)
+
 ## License
 
 MIT
